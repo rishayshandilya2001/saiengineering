@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish&family=Open+Sans&family=Poppins:wght@700&family=Rajdhani:wght@700&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Bubbles&family=Rubik:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+  
+  .topcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+  }
+  
+  .logopart {
+    display: flex;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3a3a3a;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    align-items: center;
+  }
+  
+  .mainsection {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .h1 {
+    font-size: 4rem;
+    color: #133b4f;
+    text-transform: uppercase;
+  }
+  
+  .h2 {
+    font-size: 2rem;
+    color: #fca70c;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .para {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .btn {
+    border-radius: 50px;
+    padding: 1.5rem 3rem;
+    background-color: #c4c4f7;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  
+  .sign {
+    background-color: #c4c4f7;
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: white;
+  }
+  
+  .leftpart {
+    width: 100%;
+    text-align: center;
+  }
+  
+  a:hover {
+    background-color: #c4c4f7;
+    color: white;
+  }
+  
